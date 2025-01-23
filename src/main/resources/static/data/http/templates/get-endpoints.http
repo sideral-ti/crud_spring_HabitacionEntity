@@ -1,0 +1,46 @@
+### Variables
+@baseUrl = http://localhost:9000
+@contextPath = /sideralti/api/v1
+@apiPath = /rest/habitaciones
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+
+### Consulta_GET  -->
+GET {{baseUrl}}{{contextPath}}{{apiPath}}/get
+

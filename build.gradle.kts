@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.sideralti"
-version = "0.0.1-SNAPSHOT"
+version = "1.0.0"
 
 java {
 	toolchain {
@@ -28,13 +28,30 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
+	//implementation ("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web")
-	compileOnly("org.projectlombok:lombok")
+
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
+
+	// Base de datos --> H2 Datbase y Postgres
 	runtimeOnly("com.h2database:h2")
 	runtimeOnly("org.postgresql:postgresql")
+
+	// Lombok
 	annotationProcessor("org.projectlombok:lombok")
-	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	compileOnly("org.projectlombok:lombok")
+	//implementation ("org.projectlombok:lombok")
+
+	// Swagger
+	implementation ("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
+
+	// WebJars
+	implementation ("org.webjars:bootstrap:5.3.2")
+	implementation ("org.webjars:jquery:3.7.1")
+
+	// Tests
+	testImplementation ("org.springframework.boot:spring-boot-starter-test")
+	//testImplementation ("org.springframework.security:spring-security-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
